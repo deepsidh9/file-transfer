@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Gift",
+    "slug": "Gift",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/t2_changed.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gift.giftApplication"
+    },
+    "android": {
+      "package": "com.gift.gift_application"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
